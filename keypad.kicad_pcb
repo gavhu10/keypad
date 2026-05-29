@@ -90,13 +90,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "04d787a2-0bae-4c63-af2a-bbf622272278")
-		(at 145.32 102.375)
+		(at 145.32 107.375)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW6"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "f45bcfb0-c723-456b-9c42-ec77bfe5c030")
+			(uuid "600448d4-8b04-4cf0-944f-b06a5a49fbe3")
 			(effects
 				(font
 					(size 1 1)
@@ -107,7 +107,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "ee665b2f-5138-4ab6-b212-dcc842a056d1")
+			(uuid "a63a3ada-1422-4eaa-9b95-e0562821d8f3")
 			(effects
 				(font
 					(size 1 1)
@@ -120,7 +120,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "59cc248d-ee74-4439-a104-8312d1be345a")
+			(uuid "9a45373f-c609-43c9-967f-a2bb69fd52a6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -133,7 +133,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "762946d1-ed25-49ee-a90d-abe7b092baed")
+			(uuid "fbb41692-1249-4a12-9dbe-e902880bb036")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,13 +336,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "0bcd358b-3560-42bc-8ea4-9c678083af64")
-		(at 162.02 71.275)
+		(at 167.02 66.275)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW7"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "588874e5-3a3a-48f4-928e-feff797e5b85")
+			(uuid "1ffac645-38c5-4b8b-9e14-9aca18fde6a2")
 			(effects
 				(font
 					(size 1 1)
@@ -353,7 +353,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "a634620f-46a1-4e9c-82d4-7b4eb51eaab2")
+			(uuid "01b210cb-e6ca-4d42-8843-6c2d9c1735ff")
 			(effects
 				(font
 					(size 1 1)
@@ -366,7 +366,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b87ec727-24ad-4259-a5a6-2bd2f94b20b5")
+			(uuid "ba6a7c22-b4aa-4821-aa04-d6d1d0cbf3ff")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -379,7 +379,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "53b2ac23-381e-4fda-ad5d-9c630aa88937")
+			(uuid "082921b3-6dba-4415-a27f-aa3de2d76fab")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,13 +582,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "1a6207d0-09bd-4a5c-ad06-d0de1d9952fe")
-		(at 128.62 86.825)
+		(at 123.62 86.825)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW2"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "569bbc48-1cb2-4a99-bb81-0fc40604ce2e")
+			(uuid "d6f3b336-f6c6-4a4e-94d0-b85bc8e6b3cd")
 			(effects
 				(font
 					(size 1 1)
@@ -599,7 +599,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "a493cb71-2f93-437a-9034-074de774b19d")
+			(uuid "32d542c5-855e-474e-81a8-1c7903b8e192")
 			(effects
 				(font
 					(size 1 1)
@@ -612,7 +612,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30ec4387-31bf-4d59-b36b-c03390808240")
+			(uuid "7177de29-b835-4ee5-b115-e72e4cfe3e85")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -625,7 +625,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "cf9c0561-7342-45ac-ae9a-13a889efcd63")
+			(uuid "f20f39c7-5602-4331-88e6-66dc67bd63d9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -834,7 +834,7 @@
 		(property "Reference" "SW5"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "a4e4d4c3-e8e0-4438-9f6d-2417ddfb1fc9")
+			(uuid "ba5892ab-1ff9-4634-9e19-60851c3196b9")
 			(effects
 				(font
 					(size 1 1)
@@ -845,7 +845,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "cbd794ab-e612-4d62-b358-164e98ecb162")
+			(uuid "7b68d5f1-6362-4fe4-b661-7090261b702a")
 			(effects
 				(font
 					(size 1 1)
@@ -858,7 +858,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "30a4445b-c8f1-4ba6-9596-fa2c932aea3f")
+			(uuid "2a2b3965-230b-4f2c-aec2-07221002d501")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +871,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "84f8c93e-f3be-4805-bb01-d0589207f8b2")
+			(uuid "85a54c90-eba1-46c6-9df1-96e91be3f7cc")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1080,7 @@
 		(property "Reference" "U1"
 			(at 13.97 -2.1 90)
 			(layer "F.SilkS")
-			(uuid "9ac8ea7e-f7f0-4523-8dde-dfb9582873ee")
+			(uuid "c70440c3-d326-4600-b7c5-08f4ef39100d")
 			(effects
 				(font
 					(size 1 1)
@@ -1091,7 +1091,7 @@
 		(property "Value" "ESP32-S3-DevKitC-1"
 			(at 12.69632 29.46128 0)
 			(layer "F.SilkS")
-			(uuid "d5852bd9-3e53-43e9-8efd-477aaace145a")
+			(uuid "4eb873e0-8383-407c-a7bb-cafa2605d497")
 			(effects
 				(font
 					(size 1 1)
@@ -1103,7 +1103,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c4dd5fc8-c044-4db3-b78b-3b089066189f")
+			(uuid "4f7eccc3-e315-4780-b2aa-6cbaa1f05cf2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1114,7 +1114,7 @@
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5d5ec046-50e5-4484-998d-bf92ba6b1b19")
+			(uuid "52d20e50-ba7c-466a-8ec8-9cc2455ff7e3")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2318,13 +2318,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "b956b174-e598-46db-9083-5ba43c2a3dfc")
-		(at 128.62 71.275)
+		(at 123.62 66.275)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW1"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "28fbccc6-4fd0-487f-9626-d2011aa56221")
+			(uuid "9d58360c-643c-4dd4-9c20-88cfc43fd5e3")
 			(effects
 				(font
 					(size 1 1)
@@ -2335,7 +2335,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "b020e19c-b27d-49b8-9c51-ada35b7cd681")
+			(uuid "2fd64a06-a2a2-4172-95a8-0d2206c1bb53")
 			(effects
 				(font
 					(size 1 1)
@@ -2348,7 +2348,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5abbd240-9545-4ac7-bb13-ea0d2de4ed8c")
+			(uuid "1ec7acc1-0dc2-4c68-9bc2-79d00fe53c6c")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2361,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7bd8a6d1-b719-4ebc-9531-03bd07cb4fe3")
+			(uuid "09c44513-adcf-4cda-9639-cb160eb413ef")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2564,13 +2564,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "ba470a03-6672-49ba-b6b5-2c0e0ae986ec")
-		(at 162.02 102.375)
+		(at 166.75 107.5)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW9"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "bec0a8a8-f2b9-4701-a035-e8e5f7d2cd64")
+			(uuid "d9f849e3-b967-4290-a65a-cb87633e20af")
 			(effects
 				(font
 					(size 1 1)
@@ -2581,7 +2581,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "867d66b7-4c6c-42d7-9bdf-99f75bec1b5b")
+			(uuid "ad215dcc-7bed-481f-b62b-0ee7f5bb0135")
 			(effects
 				(font
 					(size 1 1)
@@ -2594,7 +2594,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f94e393e-7825-426a-b543-7512ec0321f5")
+			(uuid "caf08631-dbe4-4408-becb-c5f3c8585140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2607,7 +2607,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "241d99f0-1316-4276-88df-cb51aaa889b6")
+			(uuid "195c6de2-8d18-4e49-852b-45441ed529e9")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,13 +2810,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "d2837695-947c-4e2f-b16e-b4914ebf4980")
-		(at 145.32 71.275)
+		(at 145.32 66.275)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW4"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "11a157d0-b597-4b7b-9fc4-40c6314ff7fe")
+			(uuid "af8de18a-a979-420e-a886-25f70b13cc8d")
 			(effects
 				(font
 					(size 1 1)
@@ -2827,7 +2827,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "a41c6a75-05b3-48e5-aaae-462c57667484")
+			(uuid "09dcc08f-b37f-4a45-924e-8b42c24c368c")
 			(effects
 				(font
 					(size 1 1)
@@ -2840,7 +2840,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4daefbac-12c4-44e5-a5e2-69c50dfebc1b")
+			(uuid "61d31ad7-f858-486a-b215-0f0ac3b3e92d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2853,7 +2853,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "8ef3bbd1-b484-43ca-a609-2533bb7f471f")
+			(uuid "d3ef3350-5b4e-423c-917b-e35561170c41")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3056,13 +3056,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "dff0f265-850b-4ed5-86bd-12d519f5ba16")
-		(at 128.62 102.375)
+		(at 123.62 107.375)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW3"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "79f648de-08f9-4845-862f-ef261da3bb19")
+			(uuid "87e4b91a-2d0a-4511-9a94-b958f8015fbf")
 			(effects
 				(font
 					(size 1 1)
@@ -3073,7 +3073,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "b85db7c2-5349-4888-be7f-d2f157729235")
+			(uuid "bf79c582-d277-47ad-9243-9ed59920ab71")
 			(effects
 				(font
 					(size 1 1)
@@ -3086,7 +3086,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "58a4992b-25f4-447d-b191-39b6019cbd3e")
+			(uuid "e701bfd3-5b80-45f7-a877-b5bd58c76025")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3099,7 +3099,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "48195224-a30c-4738-9ae8-b6e10d120082")
+			(uuid "b8c7a83a-fdb8-4720-bd11-5f5408daf3e6")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3302,13 +3302,13 @@
 	(footprint "Button_Switch_THT:SW_PUSH-12mm"
 		(layer "F.Cu")
 		(uuid "ff5f8947-01f6-4ba7-bc20-dc35d4adeef0")
-		(at 162.02 86.825)
+		(at 167.02 86.825)
 		(descr "Generic SW PUSH 12mm, e.g https://sten-eswitch-13110800-production.s3.amazonaws.com/system/asset/product_line/data_sheet/143/TL1100.pdf")
 		(tags "tact sw push 12mm")
 		(property "Reference" "SW8"
 			(at 5.83 -5.41 0)
 			(layer "F.SilkS")
-			(uuid "3e829569-2740-4922-a911-dc059e9f3464")
+			(uuid "ed3bf75b-0415-4752-9c3a-cd699f601e1d")
 			(effects
 				(font
 					(size 1 1)
@@ -3319,7 +3319,7 @@
 		(property "Value" "SW_Push"
 			(at 6.37 10.5 0)
 			(layer "F.Fab")
-			(uuid "6980a5b7-d0df-4e18-864a-5f3ed877542e")
+			(uuid "2186e58a-2599-4cee-81c4-1dcf3c36f481")
 			(effects
 				(font
 					(size 1 1)
@@ -3332,7 +3332,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "4e8e73bb-8565-4c0b-8bf1-c92262fda71d")
+			(uuid "c6de9bf6-6151-4772-b579-e78405605406")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3345,7 +3345,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "5438cbbf-399e-4fce-988d-9c69367859f7")
+			(uuid "bfdd5b0f-ef90-4079-bc52-48592768dcaf")
 			(effects
 				(font
 					(size 1.27 1.27)
