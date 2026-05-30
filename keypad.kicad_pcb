@@ -144,12 +144,6 @@
 		(path "/2858ec3e-1362-459b-bed3-9f537370de07")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -390,12 +384,6 @@
 		(path "/421fbe29-fbab-4f25-b576-0b49719cb5d9")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -636,12 +624,6 @@
 		(path "/d98f4510-48cb-4e65-9d66-bbbc12685b69")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -882,12 +864,6 @@
 		(path "/0f333974-2706-4a2a-a337-5b81cad96c84")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -1074,7 +1050,7 @@
 	(footprint "Library:ESP32-S3-DevKitC-1-ish"
 		(layer "F.Cu")
 		(uuid "91ca8ec8-5a89-4551-81f1-7faa624c3098")
-		(at 182.68 123 -90)
+		(at 172.92344 128.3 -90)
 		(descr "ESP32-S3 general-purpose development board, based on ESP32-S3-WROOM-1 or ESP32-S3-WROOM-1U,It has all the ESP32-S3 pins exposed and is easy to connect and use.")
 		(tags "ESP32-S3")
 		(property "Reference" "U1"
@@ -1124,21 +1100,11 @@
 		(path "/1923c3f6-c66e-4c48-b4ff-a19df8d91f6e")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "3" "8" "9" "36" "37" "38" "39" "21" "24" "44" "23" "22" "2" "1"
-					"43" "42" "26" "25" "31" "41" "40" "13" "4" "5" "6" "7" "12" "15" "16"
-					"17" "18" "19" "20" "10" "11" "27" "32" "33" "34" "35" "30" "14" "28"
-					"29"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
-			(start -1.5 62.79728)
-			(end 26.8986 62.79728)
+			(start -1.5 54.86)
+			(end 26.8986 54.86)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1147,7 +1113,7 @@
 			(uuid "1b931f67-c1f6-4b36-9aaa-acaba6bc92f1")
 		)
 		(fp_line
-			(start 26.899999 62.79728)
+			(start 26.899999 54.86)
 			(end 26.9 -1.1)
 			(stroke
 				(width 0.12)
@@ -1158,7 +1124,7 @@
 		)
 		(fp_line
 			(start -1.499999 -1.1)
-			(end -1.5 62.79728)
+			(end -1.5 54.86)
 			(stroke
 				(width 0.12)
 				(type solid)
@@ -1207,7 +1173,7 @@
 			(uuid "4a539dc7-3d25-4dc0-ba62-d3fea4732d07")
 		)
 		(fp_line
-			(start -1.25 62.54728)
+			(start -1.25 54.61)
 			(end -1.25 -0.85)
 			(stroke
 				(width 0.05)
@@ -1217,8 +1183,8 @@
 			(uuid "0eeed360-21b5-4aad-abb5-01098c34fe07")
 		)
 		(fp_line
-			(start 26.6446 62.54728)
-			(end -1.25 62.54728)
+			(start 26.6446 54.61)
+			(end -1.25 54.61)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -1238,7 +1204,7 @@
 		)
 		(fp_line
 			(start 26.65 -0.85)
-			(end 26.65 62.54728)
+			(end 26.65 54.61)
 			(stroke
 				(width 0.05)
 				(type solid)
@@ -2372,12 +2338,6 @@
 		(path "/cba25c59-16de-4ee2-94f0-c6b3cbebbc45")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2618,12 +2578,6 @@
 		(path "/692357e2-c2c6-46a9-8ec9-71976739c8ce")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -2864,12 +2818,6 @@
 		(path "/8c9cb067-d36d-49fa-8a33-6448abac4230")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3110,12 +3058,6 @@
 		(path "/5c0b6979-75be-444a-8edf-9df5c33e1d0d")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3356,12 +3298,6 @@
 		(path "/5f42d096-1ebe-4e03-ade9-a9e436c1182a")
 		(sheetname "/")
 		(sheetfile "keypad.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "1" "2")
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -3544,6 +3480,90 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 118 61)
+		(end 118 160)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b0230a33-7b19-45fa-8927-b8e0bcc77cfb")
+	)
+	(gr_arc
+		(start 118 61)
+		(mid 118.87868 58.87868)
+		(end 121 58)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "3b36772a-0f9f-447d-a6b1-a6cce214ab6b")
+	)
+	(gr_arc
+		(start 121 163)
+		(mid 118.87868 162.12132)
+		(end 118 160)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ea330c27-bcd1-4f2f-b761-d28908f77b70")
+	)
+	(gr_line
+		(start 121 163)
+		(end 182 163)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "339930ee-8891-4564-b51e-c5be50530c72")
+	)
+	(gr_line
+		(start 182 58)
+		(end 121 58)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9de634b3-ed83-4d7b-a0e6-1301d43aca35")
+	)
+	(gr_arc
+		(start 182 58)
+		(mid 184.12132 58.87868)
+		(end 185 61)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "e2c1d9e7-0ccf-49b4-9eb3-dfaf30369935")
+	)
+	(gr_arc
+		(start 185 160)
+		(mid 184.12132 162.12132)
+		(end 182 163)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f6e7333b-f12e-4876-8640-fe8c129f7acc")
+	)
+	(gr_line
+		(start 185 160)
+		(end 185 61)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f827ca95-52a0-412f-9283-9572eb3c05ae")
 	)
 	(embedded_fonts no)
 )
