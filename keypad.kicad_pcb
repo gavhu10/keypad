@@ -3823,6 +3823,18 @@
 		(layer "Edge.Cuts")
 		(uuid "f827ca95-52a0-412f-9283-9572eb3c05ae")
 	)
+	(gr_text "v1.0"
+		(at 165.73 137.84 0)
+		(layer "F.SilkS")
+		(uuid "86fecbf4-9490-46a3-961a-60c102046203")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.2)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "gavhu10/keypad"
 		(at 132 138 0)
 		(layer "F.SilkS")
