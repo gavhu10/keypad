@@ -108,15 +108,15 @@ module main() {
             linear_extrude(LIP_DEPTH + 4)
                 square([b_X - 4, b_Y - 4]);
                 
-        translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (usb_WIDTH + 14), -1]
+        #translate(
+        [b_X - WALL, (WALL + b_Y - 2) - (usb_WIDTH + 14 - WALL), -1]
         ) {
             linear_extrude(1 + LIP_DEPTH + 1.5)
                 square([10, usb_WIDTH]);
         }
         
-        translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (esp_WIDTH + 9), -1]
+        #translate(
+        [b_X - WALL, (WALL + b_Y - 2) - (esp_WIDTH + 9 - WALL), -1]
         ) {
             linear_extrude(1 + LIP_DEPTH)
                 square([10, esp_WIDTH]);
