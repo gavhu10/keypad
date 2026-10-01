@@ -165,13 +165,13 @@ module _grill(_height) {
 
 
 // BUTTONS
-#translate([35, 90, 0]) linear_extrude(15) square([8, 6]);
+//#translate([35, 90, 0]) linear_extrude(15) square([8, 6]);
 
 // TEXT
-#translate([28, 105, 0]) linear_extrude(15) square([25, 4.5]);
+//#translate([28, 105, 0]) linear_extrude(15) square([25, 4.5]);
 
 // LED
-#translate([48, 80, 0]) linear_extrude(15) square(5);
+//#translate([48, 80, 0]) linear_extrude(15) square(5);
 
 main();
 
