@@ -6,8 +6,9 @@ LIP = 2;
 
 
 esp_WIDTH = 31;
+usb_WIDTH = 21;
 
-TOP_HEIGHT = 5;
+TOP_HEIGHT = 8;
 BOTTOM_HEIGHT = 7;
 
 CASE_BOTTOM = 2;
@@ -44,6 +45,14 @@ difference() {
     CASE_BOTTOM]) {
         linear_extrude(BOTTOM_HEIGHT + 2)
             square([10, esp_WIDTH]);
+    }
+    
+    translate(
+    [-1,
+    WALL + 14,
+    BOTTOM_HEIGHT + 6]) {
+        linear_extrude(3.2)
+            square([WALL + 2, usb_WIDTH]);
     }
     
 }
