@@ -54,5 +54,14 @@ difference() {
         linear_extrude(3.2)
             square([WALL + 2, usb_WIDTH]);
     }
+
+    
+    
+    translate([-1.25, 26, 2.5])
+    rotate([90, 0, 90])
+    linear_extrude(2)
+    scale([0.5, 0.5, 0.5])
+        import("bi--usb-symbol.svg");
+    
     
 }
