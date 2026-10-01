@@ -36,93 +36,89 @@ GRILL_SIZE_X = 60;
 GRILL_SIZE_Y = 40;
 GRILL_X = 70;
 
-
-module _curve_mold(r, length) {
-    translate([r, r, 0]) {
-        rotate([0, 0, 180]) {
-            linear_extrude(length) {
-                difference() {
-                    translate([0.1, 0.1, 0]) square(r + 1);
-                    circle(r=r);
-                }
-            }
-        }
-    }
+module flat(x, y, size) {
+    translate([x/2, y/2, 0]) sphere(r=size);
+    translate([-x/2, y/2, 0]) sphere(r=size);
+    translate([-x/2, -y/2, 0]) sphere(r=size);
+    translate([x/2, -y/2, 0]) sphere(r=size);
 }
 
 module _block() {
+    size = CURVE;
     f_X = b_X + (WALL * 2);
     f_Y = b_Y + (WALL * 2);
     
     DEPTH = TOP_DEPTH + LIP_DEPTH;
     
     difference() {
-        linear_extrude(DEPTH)
-            square([b_X + (WALL * 2), b_Y + (WALL * 2)]);
-            
-        translate([0, 0, DEPTH]) {
-            rotate([-90, 0, 0]) _curve_mold(CURVE, f_Y+1);
+        translate([f_X/2, f_Y/2, 0]) {
+            hull() {
+                translate([0, 0, DEPTH - size]) 
+                    flat(f_X - size*2, f_Y - size*2, size);
+                
+                translate([0, 0, -size]) 
+                    flat(f_X - size*2, f_Y - size*2, size);
+            }
         }
         
-        translate([f_X, 0, DEPTH]) {
-            rotate([-90, 0, 90]) _curve_mold(CURVE, f_X);
-        }
-        
-        translate([f_X, f_Y, DEPTH]) {
-            rotate([-90, 90, 90]) _curve_mold(CURVE, f_X);
-        }
-        
-        translate([f_X, 0, DEPTH]) {
-            rotate([0, 90, 90]) _curve_mold(CURVE, f_Y+1);
-        }
-            
+        translate([-1, -1, -size*2 - 1]) linear_extrude(size*2 + 1) 
+            square([f_X + 2, f_Y + 2]);
     }
 }
 
+module _holes() {
+    translate([WALL, WALL, 0]) for(x = [0:2]){
+        for(y = [0:2]) {
+            translate([
+            SIDE_OFFSET + (x * X_GAP),
+            TOP_OFFSET + (y * Y_GAP),
+            -1])
+                cylinder(LIP_DEPTH + TOP_DEPTH + 2, d=12.2);
+        }
+    }
+}
+
+module _lip_maker(diff) {
+    translate([0, 0, -1]) difference() {
+        linear_extrude(LIP_DEPTH + 1) 
+            translate([diff, diff, 0])
+                square([b_X + TRIM_OFFSET, b_Y + TRIM_OFFSET]);
+        translate([WALL, WALL, -1])
+            linear_extrude(LIP_DEPTH + 2)
+                square([b_X, b_Y]);
+    }
+}
+
+module _esp_hole() {
+    translate([2 + WALL, 2 + WALL, -1])
+            linear_extrude(LIP_DEPTH + 4)
+                square([b_X - 4, b_Y - 4]);
+                
+        translate(
+        [b_X - WALL, (WALL + b_Y - 2) - (usb_WIDTH + 14 - 2), -1]
+        ) {
+            linear_extrude(1 + LIP_DEPTH + 1.5)
+                square([10, usb_WIDTH]);
+        }
+        
+        translate(
+        [b_X - WALL, (WALL + b_Y - 2) - (esp_WIDTH + 9 - 2), -1]
+        ) {
+            linear_extrude(1 + LIP_DEPTH)
+                square([10, esp_WIDTH]);
+    }
+}
 
 module main() {
     diff = - (TRIM_OFFSET - WALL)/2;
     difference() {
         _block();
         
-        translate([0, 0, -1]) difference() {
-            linear_extrude(LIP_DEPTH + 1) 
-                translate([diff, diff, 0])
-                    square([b_X + TRIM_OFFSET, b_Y + TRIM_OFFSET]);
-            translate([WALL, WALL, -1])
-                linear_extrude(LIP_DEPTH + 2)
-                    square([b_X, b_Y]);
-        }
+        _lip_maker(diff);
         
-        translate([WALL, WALL, 0]) for(x = [0:2]){
-            for(y = [0:2]) {
-                translate([
-                SIDE_OFFSET + (x * X_GAP),
-                TOP_OFFSET + (y * Y_GAP),
-                -1])
-                    cylinder(LIP_DEPTH + TOP_DEPTH + 2, d=12.2);
-            }
-        }
+        _holes();
         
-        translate([2 + WALL, 2 + WALL, -1])
-            linear_extrude(LIP_DEPTH + 4)
-                square([b_X - 4, b_Y - 4]);
-                
-        #translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (usb_WIDTH + 14 - WALL), -1]
-        ) {
-            linear_extrude(1 + LIP_DEPTH + 1.5)
-                square([10, usb_WIDTH]);
-        }
-        
-        #translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (esp_WIDTH + 9 - WALL), -1]
-        ) {
-            linear_extrude(1 + LIP_DEPTH)
-                square([10, esp_WIDTH]);
-        }
-                
-        //pattern_grill();
+        _esp_hole();
         
         pattern_hex();
             
@@ -139,28 +135,6 @@ module pattern_hex() {
              hexgrid([3, 4], 10, 5);
     
 
-}
-
-module pattern_grill() {
-    translate([(b_X - GRILL_SIZE_X)/2 + WALL, GRILL_X, 0]) 
-        difference() {
-            _grill(LIP_DEPTH + TOP_DEPTH + 1);
-            linear_extrude(LIP_DEPTH + TOP_DEPTH + 1) 
-                difference() {
-                    translate([-20, -20, 0]) 
-                        square([GRILL_SIZE_X + 40, GRILL_SIZE_Y + 40]);
-                    square([GRILL_SIZE_X, GRILL_SIZE_Y]);
-                }
-        }
-}
-
-module _grill(_height) {
-    for(i = [0:GRILL_AMOUNT]) {
-        translate([(i * (GRILL_GAP + GRILL_BAR)) + GRILL_OFFSET, -5, 0, ])
-            linear_extrude(_height) 
-                rotate([0, 0, GRILL_SLANT])
-                    square([GRILL_GAP, GRILL_SIZE_Y + 20]);
-    }
 }
 
 
