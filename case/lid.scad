@@ -94,18 +94,18 @@ module _esp_hole() {
             linear_extrude(LIP_DEPTH + 4)
                 square([b_X - 4, b_Y - 4]);
                 
-        translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (usb_WIDTH + 14 - 2), -1]
-        ) {
-            linear_extrude(1 + LIP_DEPTH + 1.5)
-                square([10, usb_WIDTH]);
-        }
-        
-        translate(
-        [b_X - WALL, (WALL + b_Y - 2) - (esp_WIDTH + 9 - 2), -1]
-        ) {
-            linear_extrude(1 + LIP_DEPTH)
-                square([10, esp_WIDTH]);
+    translate(
+    [b_X - WALL, (WALL + b_Y) - (usb_WIDTH + 14), -1]
+    ) {
+        linear_extrude(1 + LIP_DEPTH + 1.2)
+            square([10, usb_WIDTH]);
+    }
+    
+    translate(
+    [b_X - WALL, (WALL + b_Y) - (esp_WIDTH + 9), -1]
+    ) {
+        linear_extrude(1 + LIP_DEPTH)
+            square([10, esp_WIDTH]);
     }
 }
 
@@ -127,12 +127,11 @@ module main() {
 
 
 module pattern_hex() {
-    width = 10.8 * 0.87 * 4;
+    width = 10.8 * 0.87 * 2;
     //translate([(b_X - GRILL_SIZE_X)/2 + WALL, GRILL_X, 0])
-    translate([44, esp_CENTER -(width/2), 10])
-        rotate([180, 0, 180])
+    translate([7, esp_CENTER -(width/2) - 0.3, 0])
         linear_extrude(10)
-             hexgrid([3, 4], 10, 5);
+             hexgrid([3, 2], 10, 5);
     
 
 }
